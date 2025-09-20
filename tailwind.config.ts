@@ -57,6 +57,23 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+        // Environmental theme colors
+        earth: {
+          green: "hsl(var(--earth-green))",
+          brown: "hsl(var(--earth-brown))",
+        },
+        ocean: {
+          blue: "hsl(var(--ocean-blue))",
+        },
+        sky: {
+          blue: "hsl(var(--sky-blue))",
+        },
+        sunshine: {
+          yellow: "hsl(var(--sunshine-yellow))",
+        },
+        forest: {
+          green: "hsl(var(--forest-green))",
+        },
       },
       borderRadius: {
         lg: "var(--radius)",

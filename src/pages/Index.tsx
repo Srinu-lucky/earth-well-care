@@ -16,17 +16,16 @@ import {
   Activity
 } from "lucide-react";
 import { useToast } from "@/hooks/use-toast";
+import { useNavigate } from "react-router-dom";
 import earthHero from "@/assets/earth-hero.jpg";
 
 const Index = () => {
   const { toast } = useToast();
+  const navigate = useNavigate();
   const [selectedRegion] = useState("Global");
 
   const handleClimateAction = () => {
-    toast({
-      title: "Climate Monitoring Active",
-      description: "Accessing real-time climate data and smart farming recommendations.",
-    });
+    navigate("/climate-action");
   };
 
   const handleWaterAction = () => {
